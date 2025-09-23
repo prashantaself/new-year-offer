@@ -6,6 +6,10 @@ body {
 }
 
 /* shared style */
+section {
+    padding-top: 33px;
+}
+
 
 /* padding: 33px 93px 0px 93px; */
 
