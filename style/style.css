@@ -1,7 +1,17 @@
+aaaa
 
 
+/* shared style */
 
-.banner-greetings {
-    background-image: url('../images/Banner\ Image.png');
-    
+
+.banner-img {
+    background-image: url('../images/banner.png');
+    width: 884px;
+    height: 402px; 
+    border-radius: 10px;
 }
+
+.banner-sub-title, .banner-title {
+    text-align: center;
+}
+
