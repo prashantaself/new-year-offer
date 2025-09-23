@@ -1,17 +1,41 @@
-aaaa
+/* bellow all of the css style */
 
+body {
+    width: 884px;
+    margin: auto;
+}
 
 /* shared style */
 
+/* padding: 33px 93px 0px 93px; */
+
+#banner-container {
+    
+}
 
 .banner-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-image: url('../images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 884px;
     height: 402px; 
     border-radius: 10px;
+    
 }
 
-.banner-sub-title, .banner-title {
+.banner-sub-title {
     text-align: center;
+    color: white;
+    font-size: 21px;
+}
+
+
+.banner-title {
+    text-align: center;
+    color: white;
+    font-size: 48px;
 }
 
