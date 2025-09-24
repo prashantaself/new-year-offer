@@ -1,5 +1,7 @@
 /* bellow all of the css style */
 
+
+/* Universal Style */
 body {
     width: 884px;
     margin: auto;
@@ -42,3 +44,14 @@ section {
     color: white;
     font-size: 48px;
 }
+
+
+/* 60% OFF  */
+.discount-container{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 537px;
+    height: 540px;
+}
+
