@@ -7,6 +7,8 @@ body {
     margin: auto;
 }
 
+
+
 /* shared style */
 section {
     margin-top: 80px;
@@ -46,6 +48,7 @@ section {
 }
 
 
+
 /* 60% OFF  */
 .discount-container {
     display: flex;
@@ -60,18 +63,33 @@ section {
     color: #FF0000;
     font-size: 58px;
     text-align: center;
-     
+
 }
 
 .discount-sub-title {
     color: #FF0000;
     font-size: 16px;
     text-align: center;
-     
+
 }
 
 .discount-second-title {
     color: #070211;
     font-size: 32px;
     text-align: center;
+}
+
+
+
+/* greetings banner */
+#greetings-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+    background-image: url('../images/Vectorrr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 884px;
+    height: 402px;
 }
