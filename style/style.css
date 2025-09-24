@@ -86,10 +86,19 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-     
     background-image: url('../images/Vectorrr.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 884px;
     height: 402px;
 }
+
+.greetings-2nd-img{
+    /* background-image: url('../images/Group\ 70.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 213px;
+    height: 310px;
+
+}kjnjono
