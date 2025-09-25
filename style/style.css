@@ -83,22 +83,9 @@ body {
 
 
 /* greetings banner */
-/* .greetings-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url('../images/Vectorrr.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 884px;
-    height: 402px;
-} */
- 
-
 .party-container {
     background: url('../images/Vectorrr.png') no-repeat center/cover;
     display: flex;
-    
     /* side by side text + image */
     justify-content: space-around;
     padding-left: 84px;
