@@ -56,7 +56,6 @@ section {
     justify-self: center;
     width: 537px;
     height: 540px;
-    margin-top: 80px;
 }
 
 
@@ -86,14 +85,12 @@ section {
 .party-container {
     background: url('../images/Vectorrr.png') no-repeat center/cover;
     display: flex;
-    /* side by side text + image */
     justify-content: space-around;
     padding-left: 84px;
     padding-right: 92px;
     align-items: center;
     border-radius: 15px;
     color: white;
-    /* margin-top: 280px; */
     width: 884px;
     height: 402px;
     margin-top: 80px;
