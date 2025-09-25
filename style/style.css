@@ -103,7 +103,7 @@ body {
     border-radius: 15px;
     padding: 40px;
     color: white;
-    margin-top: 80px;
+    margin-top: 280px;
 }
 
 .banner-content {
@@ -114,5 +114,6 @@ body {
     width: 320px;
     /* second picture এর width */
     height: auto;
+     
     
 }
