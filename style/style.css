@@ -82,7 +82,7 @@ section {
 
 
 /* greetings banner */
-#greetings-container {
+/* .greetings-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,14 +91,25 @@ section {
     background-repeat: no-repeat;
     width: 884px;
     height: 402px;
+} */
+
+.banner {
+    background: url('../images/Vectorrr.png') no-repeat center/cover;
+    display: flex;
+    /* side by side text + image */
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding: 40px;
+    color: white;
 }
 
-.greetings-2nd-img{
-    /* background-image: url('../images/Group\ 70.png'); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-    width: 213px;
-    height: 310px;
+.banner-content {
+    max-width: 50%;
+}
 
-}kjnjono
+.banner-img img {
+    width: 320px;
+    /* second picture এর width */
+    height: auto;
+}
