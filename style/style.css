@@ -86,9 +86,9 @@ section {
     background: url('../images/Vectorrr.png') no-repeat center/cover;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding-left: 84px;
     padding-right: 92px;
-    align-items: center;
     border-radius: 15px;
     color: white;
     width: 884px;
@@ -96,9 +96,14 @@ section {
     margin-top: 80px;
 }
 
-.party-content {
-    max-width: 50%;
+.party-content h1 {
+    font-size: 40px;
 }
+
+.party-content p{
+    font-size: 20px;
+  }
+
 
 .party-img img {
     width: 200px;
