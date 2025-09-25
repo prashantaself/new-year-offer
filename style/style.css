@@ -10,9 +10,9 @@ body {
 
 
 /* shared style */
-section {
-    margin-top: 80px;
-}
+/* section {
+    padding-top: 80px;
+} */
 
 
 /* padding: 33px 93px 0px 93px; */
@@ -56,6 +56,7 @@ section {
     justify-self: center;
     width: 537px;
     height: 540px;
+    padding-top: 80px;
 }
 
 
@@ -102,6 +103,7 @@ section {
     border-radius: 15px;
     padding: 40px;
     color: white;
+    margin-top: 80px;
 }
 
 .banner-content {
@@ -112,4 +114,5 @@ section {
     width: 320px;
     /* second picture এর width */
     height: auto;
+    
 }
