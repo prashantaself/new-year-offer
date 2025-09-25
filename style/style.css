@@ -56,7 +56,7 @@ body {
     justify-self: center;
     width: 537px;
     height: 540px;
-    padding-top: 80px;
+    margin-top: 80px;
 }
 
 
@@ -93,27 +93,29 @@ body {
     width: 884px;
     height: 402px;
 } */
+ 
 
-.banner {
+.party-container {
     background: url('../images/Vectorrr.png') no-repeat center/cover;
     display: flex;
+    
     /* side by side text + image */
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-left: 84px;
+    padding-right: 92px;
     align-items: center;
     border-radius: 15px;
-    padding: 40px;
     color: white;
-    margin-top: 280px;
+    /* margin-top: 280px; */
+    width: 884px;
+    height: 402px;
+    margin-top: 80px;
 }
 
-.banner-content {
+.party-content {
     max-width: 50%;
 }
 
-.banner-img img {
-    width: 320px;
-    /* second picture এর width */
-    height: auto;
-     
-    
+.party-img img {
+    width: 200px;
 }
