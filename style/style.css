@@ -1,7 +1,7 @@
 /* bellow all of the css style */
 
 
-/* Universal Style */
+/* universal style */
 body {
     width: 884px;
     margin: auto;
@@ -15,7 +15,8 @@ body {
 /* padding: 33px 93px 0px 93px; */
 
 
-/* Party Celebration */
+
+/* party celebration */
 .banner-container {
     margin-top:80px;
 }
@@ -48,7 +49,7 @@ body {
 
 
 
-/* 60% OFF  */
+/* 60% off  */
 .discount-container {
     display: flex;
     flex-direction: column;
@@ -93,7 +94,7 @@ body {
 
 
 
-/* Welcome Banner */
+/* welcome banner */
 .party-container {
     display: flex;
     background: url('../images/Vectorrr.png');
@@ -117,7 +118,10 @@ body {
     font-size: 20px;
   }
 
-
 .party-img img {
     width: 200px;
 }
+
+
+
+/* venue date and time  */
