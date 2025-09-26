@@ -11,7 +11,7 @@ body {
 
 /* shared style */
 section {
-    padding-top: 80px;
+    margin-top: 80px;
 }
 
 
@@ -78,6 +78,11 @@ section {
     text-align: center;
 }
 
+.discount-img>img {
+    width: 537px;
+    height: 335px;
+}
+
 
 
 /* greetings banner */
@@ -92,8 +97,8 @@ section {
     padding-left: 84px; 
     padding-right: 92px;
     border-radius: 15px;
-    margin-top: 80px;
     height: 402px;
+    /* margin-top: 80px; */
 }
 
 .party-content h1 {
