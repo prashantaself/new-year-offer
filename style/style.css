@@ -247,3 +247,12 @@ body {
     width: 150px;
     z-index: 3;
 }
+
+
+
+/* the best gift */
+.best-gift-container{
+    display: flex;
+    flex-direction: row;
+    width: 779px;
+}
