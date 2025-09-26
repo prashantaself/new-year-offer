@@ -83,11 +83,14 @@ section {
 
 /* greetings banner */
 .party-container {
-    background: url('../images/Vectorrr.png') no-repeat center/cover;
+    background: url('../images/Vectorrr.png');
     display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     justify-content: space-around;
     align-items: center;
-    padding-left: 84px;
+    padding-left: 84px; 
     padding-right: 92px;
     border-radius: 15px;
     color: white;
