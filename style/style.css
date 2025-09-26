@@ -199,7 +199,28 @@ body {
 
 /* holidays sale */
 .holidays-sale-container{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/Rectangle\ 2.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
     height: 660px;
     margin-top: 80px;
+}
+
+.holidays-sale-description {
+    text-align: center;
     
 }
+
+
+
+.holidays-gift-box img{
+    width: 400px;
+    justify-content: space-between;
+}
+
+.fiftydiscount {
+    width: 234px;
+}
+
