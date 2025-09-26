@@ -55,22 +55,29 @@ body {
     justify-self: center;
     width: 537px;
     height: 540px;
+    background-color: whitesmoke;
     margin-top: 80px;
+    padding-bottom: 0px;
 }
-
 
 .discount-title {
     color: #FF0000;
     font-size: 58px;
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
+.discount-description {
+    line-height: 10px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .discount-sub-title {
     color: #FF0000;
     font-size: 16px;
     text-align: center;
-
 }
 
 .discount-second-title {
