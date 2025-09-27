@@ -252,7 +252,32 @@ body {
 
 /* the best gift */
 .best-gift-container{
+    height: 779px;
+    margin-top: 80px;
+}
+
+.best-gift-description h5 {
+    color: #ff0000;
+    font-size: 16px;
+}
+
+.best-gift-description p{
+    color: #070211;
+    line-height: 21px;
+    font-size: 13px;
+}
+
+.best-gift-images{
     display: flex;
-    flex-direction: row;
-    width: 779px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.best-gift-images img{
+    width: 284px;
+    height: 301px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
 }
