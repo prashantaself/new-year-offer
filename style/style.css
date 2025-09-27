@@ -251,7 +251,7 @@ body {
 
 
 /* the best gift */
-.best-gift-container{
+.best-gift-container {
     background-color: #fcdada;
     height: 800px;
     border-radius: 10px;
@@ -267,20 +267,20 @@ body {
     font-size: 16px;
 }
 
-.best-gift-description p{
+.best-gift-description p {
     color: #070211;
     line-height: 21px;
     font-size: 13px;
 }
 
-.best-gift-images{
+.best-gift-images {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.best-gift-images img{
+.best-gift-images img {
     width: 284px;
     height: 301px;
     border-radius: 10px;
@@ -289,7 +289,7 @@ body {
 }
 
 .best-gift-images img:hover {
-    filter: grayscale(1) ;
+    filter: grayscale(1);
     transform: scale(1.03);
 }
 
@@ -308,17 +308,41 @@ body {
     text-align: center;
 }
 
-.newsletter-description img{
+.newsletter-description img {
     width: 100px;
     height: 100px;
 }
 
-.newsletter-button-container{
+.newsletter-description  h1{
+    font-size: 32px;
+    line-height: auto;
+}
+
+.newsletter-button-container {
+    margin-top: 32px;
+    padding-bottom: 53px;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-button-container input {
     width: 434px;
+    height: 42.5px;
+    font-size: 18px;
+    background-color: white;
+    color: red;
+    padding-left: 10px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.newsletter-button {
     height: 48px;
-    border: solid black;
-    border-radius: 60px;
-    margin: 80px 225px 53px 225px;
+    width: 140px;
+    font-size: 25px;
+    color: white;
+    background-color: red;
+    border-radius: 0px 30px 30px 0px;
+    cursor: pointer;
 }
 
 
