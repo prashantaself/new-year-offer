@@ -290,3 +290,13 @@ body {
 
 
 /* subscribe newsletter */
+.newsletter-container {
+    height: 412px;
+    background-color: #FF0000;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+.newsletter-description {
+    
+}
