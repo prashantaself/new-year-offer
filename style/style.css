@@ -297,10 +297,11 @@ body {
 
 /* subscribe newsletter */
 .newsletter-container {
-    background: linear-gradient(to bottom, #fcdada, #ffffff);
+    background: linear-gradient(#fcdadb, #fcdadb);
     height: 412px;
     margin-top: 80px;
     border-radius: 10px;
+    border: solid black 1px;
 }
 
 .newsletter-description {
@@ -313,41 +314,47 @@ body {
     height: 100px;
 }
 
-.newsletter-description  h1{
+.newsletter-description h1 {
     font-size: 32px;
     line-height: auto;
 }
 
 .newsletter-button-container {
-    margin-top: 32px;
-    padding-bottom: 53px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 434px;
+    height: 48px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-top: 32px;
+    margin-bottom: 53px;
 }
 
 .newsletter-button-container input {
-    width: 434px;
-    height: 42.5px;
-    font-size: 18px;
+    font-size: 12px;
     background-color: white;
-    color: red;
-    padding-left: 10px;
-    border-radius: 30px 0px 0px 30px;
+    border: none;
+    padding-left: 25px;
+    width: 275px;
+    height: 48px;
 }
 
 .newsletter-button {
-    height: 48px;
     width: 140px;
-    font-size: 25px;
+    height: 48px;
+    font-size: 13px;
     color: white;
-    background-color: red;
-    border-radius: 0px 30px 30px 0px;
+    background-color: #FF0000;
     cursor: pointer;
+    border: none;
 }
 
 
 
-
+/* footer section */
 .footer-container {
     margin-top: 80px;
     /* width: 1072px; */
