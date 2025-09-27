@@ -252,8 +252,14 @@ body {
 
 /* the best gift */
 .best-gift-container{
-    height: 779px;
+    background-color: #fcdada;
+    height: 800px;
+    border-radius: 10px;
     margin-top: 80px;
+}
+
+.best-gift-description {
+    text-align: center;
 }
 
 .best-gift-description h5 {
@@ -291,12 +297,37 @@ body {
 
 /* subscribe newsletter */
 .newsletter-container {
+    background: linear-gradient(to bottom, #fcdada, #ffffff);
     height: 412px;
-    background-color: #FF0000;
     margin-top: 80px;
     border-radius: 10px;
 }
 
 .newsletter-description {
-    
+    padding-top: 53px;
+    text-align: center;
+}
+
+.newsletter-description img{
+    width: 100px;
+    height: 100px;
+}
+
+.newsletter-button-container{
+    width: 434px;
+    height: 48px;
+    border: solid black;
+    border-radius: 60px;
+    margin: 80px 225px 53px 225px;
+}
+
+
+
+
+.footer-container {
+    margin-top: 80px;
+    /* width: 1072px; */
+    height: 408px;
+    background-color: #070211;
+    align-items: c;
 }
