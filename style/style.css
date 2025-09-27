@@ -282,6 +282,11 @@ body {
     margin: 5px;
 }
 
+.best-gift-images img:hover {
+    filter: grayscale(1) ;
+    transform: scale(1.03);
+}
+
 
 
 /* subscribe newsletter */
