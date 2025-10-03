@@ -2,7 +2,7 @@
 
 
 /* universal style */
-body {
+main {
     width: 884px;
     margin: auto;
 }
@@ -358,7 +358,7 @@ body {
   footer{
     background-color: black;
     margin-top: 80px;
-    
+
   }
   .fast-row{
     display: flex;
