@@ -368,10 +368,20 @@ main {
     color: white;
   }
 
-  .row-item img {
+  .row-item {
     display: flex;
     flex-direction: column;
     color: white;
+  }
+
+  .ri1 {
+    display: flex;
+    align-items: center;
+  }
+
+  .ri1 img {
+    height: 16px;
+    width: 16px;
   }
 
   .second-row{
