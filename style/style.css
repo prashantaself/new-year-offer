@@ -375,17 +375,28 @@ main {
   }
 
   .second-row{
-    margin: 65px 0;
+    /* margin: 65px 0; */
     display: flex;
-    flex-direction: row;
     gap: 15px;
     justify-content: center;
-    padding-left: 50px;
   }
+
+  .border-line {
+    border-top: solid #FFFFFF;
+    border-bottom: solid #FFFFFF;
+    width: 884px;
+  }
+
+  .sec-row-img {
+    display: flex;
+    margin: 32px 328px 32px 328px;
+    padding-left: 16px;
+  }
+
   .thard-row{
     display: flex;
     justify-content: space-between;
-    padding-left: 50px;
+    padding: 80px 94px 33px 94px;
 
   }
   .item-text{
