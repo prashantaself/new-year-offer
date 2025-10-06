@@ -402,7 +402,9 @@ footer {
     margin: 32px 328px 32px 328px;
 }
 
-.sec-row-img a {
+.sec-row-img img {
+    width: 42px;
+    height: 42px;
     padding-left: 16px;
 }
 
