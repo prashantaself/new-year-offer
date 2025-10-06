@@ -383,7 +383,6 @@ footer {
 .ri1 img {
     height: 16px;
     width: 16px;
-    margin-left: 10px;
 }
 
 .second-row {
@@ -401,6 +400,9 @@ footer {
 .sec-row-img {
     display: flex;
     margin: 32px 328px 32px 328px;
+}
+
+.sec-row-img a {
     padding-left: 16px;
 }
 
